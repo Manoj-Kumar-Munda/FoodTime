@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Header from "./Header";
+import useMenu from "../contexts/menuProvider";
 
 const Main = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const {isMenuOpen, setIsMenuOpen} = useMenu();
+  console.log(isMenuOpen)
   return (
     <div className="relative">
       {isMenuOpen && (

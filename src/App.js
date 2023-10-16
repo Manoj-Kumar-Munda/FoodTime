@@ -1,11 +1,15 @@
+import { useState } from "react";
 import Main from "./components/Main";
+import { MenuProvider } from "./contexts/menuProvider";
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="App">
-      <Main />
-    
-    </div>
+    <MenuProvider value={{isMenuOpen, setIsMenuOpen}}>
+      <div className="">
+        <Main />
+      </div>
+    </MenuProvider>
   );
 }
 

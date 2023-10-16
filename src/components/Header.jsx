@@ -1,3 +1,5 @@
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const Header = ({ isMenuOpen,setIsMenuOpen }) => {
@@ -43,9 +45,9 @@ const Header = ({ isMenuOpen,setIsMenuOpen }) => {
             <span className="font-Marienda font-bold">Food</span>
             <span className="font-Poppins font-semibold">Time</span>
           </h1>
-          <div className="absolute -right-3 top-0">
-            <img src={TitleVector} alt="title-svg" />
-          </div>
+          {/* <div className="absolute -right-3 top-0">
+            <img src={} alt="title-svg" />
+          </div> */}
         </div>
 
         <div className="flex justify-between gap-[6.12rem]">
