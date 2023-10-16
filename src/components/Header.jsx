@@ -1,44 +1,26 @@
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { DropdownNav } from "./Navbars";
+import Hamburgur from "./Hamburgur";
 
-const Header = ({ isMenuOpen,setIsMenuOpen }) => {
+const Header = () => {
   return (
-    <header className="relative bg-white z-50 px-4 md:px-[5%]  py-4 border-b border-primary">
-      <div className="absolute sm:hidden left-0 right-0 bottom-0 top-full w-full">
-        <ul className={isMenuOpen ? "menu active" : "menu inactive"}>
-          <li>
-            <a className="block py-1 text-primary font-semibold font-Poppins text-lg text-center">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="block py-1 text-primary font-semibold font-Poppins text-lg text-center">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a className="block py-1 text-primary font-semibold font-Poppins text-lg text-center">
-              About Us
-            </a>
-          </li>
-          <li>
-            <a className="block py-1 text-primary font-semibold font-Poppins text-lg text-center">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
+    <header className="relative bg-white z-50 px-4 md:px-[5%]  md:py-4  border-b border-primary">
 
+      {/* For sm-devices */}
+      <DropdownNav />
+      
       <div className="relative flex justify-between items-center">
-        <div
+        <Hamburgur />
+        {/* <div
           className="md:hidden menu-icon cursor-pointer w-12 h-12 px-3 transition-colors hover:bg-slate-200 flex flex-col justify-center items-center"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <div className="bars bg-primary"></div>
           <div className="bars bg-primary"></div>
           <div className="bars bg-primary"></div>
-        </div>
+        </div> */}
 
         <div className="relative">
           <h1 className="text-2xl text-primary ">
