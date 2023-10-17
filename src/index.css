@@ -4,3 +4,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main {
+    max-width: 1300px;
+    margin-inline: auto;
+  }
+  
+  .lg-image {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 31.25%,
+        rgba(57, 108, 3, 0.71) 65.1%,
+        #396c03 100%
+      ),
+      url("./assets/chefs.png"), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .btn__primary__large {
+    display: inline-flex;
+    padding: 0.9375rem 3.75rem;
+    justify-content: center;
+    gap: 0.9375rem;
+    border-radius: 14.025rem;
+  }
+  
+  .search__btn {
+    display: inline-flex;
+    padding: 0.9375rem 3.125rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 6.25rem;
+  }
+  .glass__btn {
+    padding: 0.85rem 0.65rem;
+    position: absolute;
+    left: 20%;
+    background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.4) 100%);
+    border-radius: 0.55431rem;
+    backdrop-filter: blur(6px);
+  }
+  
+  .bg-video-title {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.65) 0%,
+      rgba(38, 38, 38, 0.24) 100%
+    );
+  }
+  
