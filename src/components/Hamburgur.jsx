@@ -4,7 +4,7 @@ import useMenu from '../contexts/menuProvider'
 const Hamburgur = () => {
     const {isMenuOpen, setIsMenuOpen} = useMenu()
   return (
-    <div className="md:hidden relative py-3">
+    <div className="md:hidden relative py-3 ">
         <button className="text-primary w-10 h-10 relative focus:outline-none " onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <div className="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
             <span

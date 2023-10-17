@@ -6,20 +6,18 @@ import { links } from "../utils/constants";
 export const DropdownNav = () => {
   const { isMenuOpen } = useMenu();
   return (
-    <div className="absolute md:hidden left-0 right-0 bottom-0 top-full w-full h-full px-4 py-2">
+    <div className="absolute md:hidden left-0 right-0 bottom-0 top-full w-full h-full px-4 py-2 ">
       <ul
-        className={
-          isMenuOpen
-            ? "flex flex-col py-4 pl-4 border rounded-xl overflow-hidden transition ease-in duration-300 transform origin-top-left opacity-100"
-            : "scale-y-0 opacity-0"
-        }
+        className={`bg-white/40 backdrop-filter backdrop-blur-md  flex flex-col py-5 pl-4 border border-primary/75 rounded-xl overflow-hidden transition ease-in duration-200 transform origin-top-left opacity-100 ${
+          !isMenuOpen && "scale-y-0 opacity-0"
+        }`}
       >
         {links.map((link, index) => {
           return (
             <li key={index}>
               <a
                 href="#"
-                className="block py-2 text-primary font-semibold font-Poppins text-lg text-start hover:text-green-700"
+                className="block py-2 text-primary font-semibold font-Poppins text-lg text-start transition hover:text-green-600"
               >
                 {link}
               </a>
