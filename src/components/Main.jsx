@@ -11,7 +11,7 @@ import Footer from "./Footer";
 
 const Main = () => {
   const { isMenuOpen, setIsMenuOpen } = useMenu();
-  console.log(isMenuOpen);
+  
   return (
     <div className="relative">
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
