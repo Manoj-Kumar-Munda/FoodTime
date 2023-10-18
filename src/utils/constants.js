@@ -27,3 +27,18 @@ export const qna = [
     ans: "Lorem ipsum dolor sit amet consectetur. Odio amet natoque tortor convallis. Bibendum sapien suspendisse ipsum urna malesuada elit. Bibendum vitae nibh scelerisque sed aliquam ullamcorper est. ",
   },
 ];
+
+export const footerItems = [
+  {
+    header: "Quick links",
+    links: ["Browse FoodTime", "Browse FoodTime", "Registration"],
+  },
+  {
+    header: "About",
+    links: ["About Us", "Mission", "Contact"],
+  },
+  {
+    header: "Social",
+    links: ["Facebook", "Twitter", "Instagram"],
+  },
+];

@@ -6,6 +6,8 @@ import Explore from "./Explore";
 import Features from "./Features";
 import JoinUs from "./JoinUs";
 import Faq from "./Faq";
+import Download from "./Download";
+import Footer from "./Footer";
 
 const Main = () => {
   const { isMenuOpen, setIsMenuOpen } = useMenu();
@@ -20,8 +22,9 @@ const Main = () => {
         <Features />
         <JoinUs />
         <Faq />
-        
+        <Download />
       </main>
+      <Footer /> 
     </div>
   );
 };

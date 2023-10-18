@@ -8,19 +8,16 @@ export const DropdownNav = () => {
   return (
     <div className="absolute md:hidden left-0 right-0 bottom-0 top-full w-full h-full px-4 py-2 ">
       <ul
-        className={`bg-white/40 backdrop-filter backdrop-blur-md  flex flex-col py-5 pl-4 border border-primary/75 rounded-xl overflow-hidden transition ease-in duration-200 transform origin-top-left opacity-100 ${
+        className={`bg-white flex flex-col py-5 pl-4 border border-primary/75 rounded-xl overflow-hidden transition ease-in duration-200 transform origin-top-left opacity-100 ${
           !isMenuOpen && "scale-y-0 opacity-0"
         }`}
       >
         {links.map((link, index) => {
           return (
             <li key={index}>
-              <a
-                href="#"
-                className="block py-2 text-primary font-semibold font-Poppins text-lg text-start transition hover:text-green-600"
-              >
+              <span className="cursor-pointer block py-2 text-primary font-semibold font-Poppins text-lg text-start transition hover:text-green-600">
                 {link}
-              </a>
+              </span>
             </li>
           );
         })}
@@ -32,18 +29,14 @@ export const DropdownNav = () => {
 export const DefaultNav = () => {
   return (
     <div className="flex justify-between gap-[6.12rem]">
-
-     
       <nav className="hidden md:flex justify-between items-center font-Poppins md:gap-12 lg:gap-16">
         {links.map((link, index) => {
           return (
-            <span key={index}>
-              <a
-                href="#"
-                className="text-slate-900 transition-colors font-[500] hover:text-primary"
-              >
-                {link}
-              </a>
+            <span
+              key={index}
+              className="cursor-pointer text-slate-900 transition-colors font-[500] hover:text-primary"
+            >
+              {link}
             </span>
           );
         })}
