@@ -13,6 +13,7 @@ const Main = () => {
   return (
     <div className="relative">
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+      
       <main className="max-w-7xl mx-auto">
         <Hero />
         <Explore />

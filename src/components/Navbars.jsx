@@ -32,6 +32,8 @@ export const DropdownNav = () => {
 export const DefaultNav = () => {
   return (
     <div className="flex justify-between gap-[6.12rem]">
+
+     
       <nav className="hidden md:flex justify-between items-center font-Poppins md:gap-12 lg:gap-16">
         {links.map((link, index) => {
           return (

@@ -56,4 +56,12 @@
       rgba(38, 38, 38, 0.24) 100%
     );
   }
+
+  .faq-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    row-gap: 1rem;
+    column-gap: 1rem;
+    
+  }
   
