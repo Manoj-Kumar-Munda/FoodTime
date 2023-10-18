@@ -42,3 +42,18 @@ export const footerItems = [
     links: ["Facebook", "Twitter", "Instagram"],
   },
 ];
+
+export const features = [
+  {
+    title : "Wide selection of restaurants",
+    description : "Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique."
+  },
+  {
+    title : "Easy ordering process",
+    description :"Lorem ipsum dolor sit amet consectetur. Ornare massa nunc ."
+  },
+  {
+    title : "Lorem ipsum dolor sit amet consectetur. Ornare massa nunc .",
+    description :"Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh."
+  }
+]

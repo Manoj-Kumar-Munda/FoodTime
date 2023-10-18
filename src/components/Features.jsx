@@ -8,7 +8,7 @@ const Features = () => {
     <section className="w-full px-4 my-6 mx-auto">
             <div class="flex flex-wrap">
               <div class="basis-full md:basis-1/3 ">
-                <div class=" rounded-lg flex flex-col gap-4 p-4 sm:p-6 md:p-10 xl:p-14 font-Poppins">
+                <div class=" flex flex-col gap-4 p-4 sm:p-6 md:p-10 xl:p-14 font-Poppins">
                   <div className="w-12 h-12">
                     <img src={plate} alt="plate" className="w-full h-full" />
                   </div>
