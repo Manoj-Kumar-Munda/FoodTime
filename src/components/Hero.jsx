@@ -25,7 +25,7 @@ const Hero = () => {
                 </p>
 
                 <div className="max-w-3xl self-center xl:self-auto w-full flex box-border border border-r-0 rounded-[6rem]">
-                  <div className="flex-1 flex sm:gap-4 pl-2 py-2  items-center">
+                  <div className="flex-1 flex gap-0 sm:gap-4 pl-2 py-2  items-center">
                     <div className="bg-secondary p-2 rounded-full hidden sm:block">
                       <img src={mark} alt="mark" className="w-6 h-6" />
                     </div>
