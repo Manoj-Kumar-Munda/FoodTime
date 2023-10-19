@@ -8,7 +8,7 @@ const JoinUs = () => {
           <h1 className=" text-center text-2xl md:text-4xl  text-white font-bold">
             Want to be a part of FoodTime?
           </h1>
-          <p className="text-[#ededed] text-center font-semibold leading-8">
+          <p className="text-[#ededed] text-center font-semibold leading-8 hidden md:block">
             List your restaurant or shop on foodtime.
           </p>
 
