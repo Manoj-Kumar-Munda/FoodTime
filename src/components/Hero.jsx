@@ -14,13 +14,13 @@ const Hero = () => {
 
             <div className=" flex flex-wrap md:justify-between items-center space-y-6 ">
               {/* Main text */}
-              <div className="basis-full shrink-0 flex-grow lg:basis-3/5 relative flex flex-col justify-center items-center lg:items-start gap-4 md:gap-7 z-10">
-                <h1 className="shrink-0 max-w-2xl text-center sm:text-center lg:text-start text-5xl md:text-6xl font-Marienda text-primary font-bold">
+              <div className="basis-full flex-grow lg:basis-3/5 relative flex flex-col justify-center items-center lg:items-start gap-4 md:gap-7 z-10">
+                <h1 className=" max-w-2xl text-center sm:text-center lg:text-start text-5xl md:text-6xl font-Marienda text-primary font-bold">
                   Order food online from your favourite local restaurants
                   <span className="text-secondary">.</span>
                 </h1>
 
-                <p className=" font-Poppins text-lg md:text-2xl text-paragraph font-semibold">
+                <p className=" font-Poppins text-lg md:text-2xl text-paragraph font-semibold text-center">
                   Freshly made food delivered to your door.
                 </p>
 
@@ -33,14 +33,14 @@ const Hero = () => {
                     <input
                       type="text"
                       name="search"
-                      className="bg-transparent outline-none border-none font-Poppins pl-4"
+                      className="bg-transparent outline-none border-none font-Poppins pl-2 md:pl-4"
                       placeholder="Enter your location"
                     />
                   </div>
 
-                  {/* <button className="border border-primary flex gap-2 justify-center items-center bg-primary rounded-[6rem] px-10"> */}
+                 
                   <button className="search__btn bg-primary">
-                    <img src={search} alt="search" />
+                    <img src={search} alt="search" className='hidden sm:block' />
                     <span className="text-white  font-Poppins">Search</span>
                   </button>
                 </div>

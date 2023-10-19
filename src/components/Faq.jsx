@@ -1,4 +1,3 @@
-
 import React from "react";
 import FaqWrapper from "./FaqWrapper";
 
@@ -21,7 +20,6 @@ const Faq = () => {
 
       <section className="w-full my-4">
         <FaqWrapper />
-        
       </section>
     </div>
   );
