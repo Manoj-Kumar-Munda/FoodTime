@@ -39,7 +39,7 @@ const Hero = () => {
                   </div>
 
                  
-                  <button className="inline-flex justify-center items-center rounded-r-full rounded-l-full gap-x-2 bg-primary px-4 py-3  ">
+                  <button className="hidden sm:inline-flex justify-center items-center rounded-r-full rounded-l-full gap-x-2 bg-primary px-4 py-3  ">
                     <img src={search} alt="search" className='hidden sm:block' />
                     <span className="text-white  font-Poppins text-sm sm:text-base">Search</span>
                   </button>
