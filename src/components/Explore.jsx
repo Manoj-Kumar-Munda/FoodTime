@@ -4,9 +4,9 @@ import city from "../assets/city.png"
 
 const Explore = () => {
   return (
-    <section className="w-full px-4 py-4 flex flex-wrap justify-between items-center my-6 bg-secondary/5">
+    <section className="w-full px-2 py-4 flex flex-wrap justify-between items-center my-6 bg-secondary/5">
             <div className="shrink-0 flex-grow space-y-4 basis-full lg:basis-2/5 lg:pr-6">
-              <h1 className=" text-5xl lg:text-6xl font-Marienda text-primary">
+              <h1 className=" text-4xl lg:text-6xl font-Marienda text-primary">
                 Expore your favourite city's food.
               </h1>
 

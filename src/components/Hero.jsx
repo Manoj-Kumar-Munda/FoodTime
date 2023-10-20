@@ -7,7 +7,7 @@ import tick from "../assets/Vectors/tick.svg"
 
 const Hero = () => {
   return (
-    <section className="relative px-2 sm:px-4 py-8 w-full">
+    <section className="relative px-2 py-6 w-full">
             <div className="hidden xl:block absolute w-72 h-72 rotate-[25deg] -left-16 -top-14  z-0">
               <img src={leaf} alt="leaf" className="p-6 blur-sm" />
             </div>
@@ -15,7 +15,7 @@ const Hero = () => {
             <div className=" flex flex-wrap px-2 md:px-0 justify-center md:justify-between items-center space-y-6 ">
               {/* Main text */}
               <div className="basis-full flex-grow lg:basis-3/5 relative flex flex-col lg:justify-center items-center lg:items-start gap-y-4 md:gap-y-7 z-10">
-                <h1 className=" max-w-2xl text-center sm:text-center lg:text-start text-5xl md:text-6xl font-Marienda text-primary font-bold">
+                <h1 className=" max-w-2xl text-center lg:text-start text-4xl md:text-6xl font-Marienda text-primary font-bold">
                   Order food online from your favourite local restaurants
                   <span className="text-secondary">.</span>
                 </h1>
@@ -24,7 +24,7 @@ const Hero = () => {
                   Freshly made food delivered to your door.
                 </p>
 
-                <div className="max-w-2xl px-1 sm:px-0 self-center xl:self-auto sm:w-full flex border border-r-0 rounded-[6rem] overflow-hidden">
+                <div className="max-w-2xl w-full px-1 sm:px-0 self-center xl:self-auto sm:w-full flex border border-r-0 rounded-[6rem] overflow-hidden">
                   <div className="flex-1 flex gap-0 sm:gap-4 pl-2 py-2 items-center">
                     <div className="bg-secondary p-2 rounded-full hidden sm:block">
                       <img src={mark} alt="mark" className="w-6 h-6" />

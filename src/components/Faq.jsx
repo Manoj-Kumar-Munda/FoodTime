@@ -3,7 +3,7 @@ import FaqWrapper from "./FaqWrapper";
 
 const Faq = () => {
   return (
-    <div className="w-full px-4 my-8">
+    <div className="w-full px-2 my-8">
       <section className="flex flex-col items-center gap-2 md:gap-4 py-4">
         <span className="font-semibold font-Poppins text-heading-2 text-2xl md:text-4xl">
           Frequently asked questions

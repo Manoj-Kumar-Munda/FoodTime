@@ -5,7 +5,7 @@ import mobileApp from "../assets/download.jpg"
 
 const Download = () => {
   return (
-    <section className="w-full px-4 my-8">
+    <section className="w-full px-2 my-8">
             <div className=" flex flex-col lg:flex-row  gap-6 justify-between items-center font-Poppins">
               <div className="basis-5/12 flex flex-col gap-4">
                 <div className="flex flex-col gap-2">
